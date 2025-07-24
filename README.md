@@ -1,12 +1,62 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💸 MyPaisaFlow Frontend (React + Tailwind CSS)
 
-Currently, two official plugins are available:
+This is the **frontend** for the **MyPaisaFlow App**, built using **React.js** and **Tailwind CSS**. It allows users to register, log in, view their dashboard, add income and expenses, and export data — all via a responsive and intuitive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- 🔐 User Login & Sign Up Pages
+- 🧭 Intuitive Navigation Sidebar
+- 📊 Dashboard showing financial summaries and charts
+- 💵 Add/Delete Income
+- 💸 Add/Delete Expenses
+- 📈 Bar and Pie Charts for visualization
+- 📁 Download Excel reports
+- 📱 Fully Responsive (Mobile + Desktop)
+- 🖼️ Profile Image Upload Support
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Folder Structure
+
+```
+frontend/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── hooks/
+│   ├── pages/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+├── vite.config.js
+├── package.json
+```
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/agprateek7/MyPaisaFlow-frontend.git
+   cd frontend
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Setup environment variables** (if using any)
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+## 🔌 API Integration
+
+Make sure the backend is running and update your API base URL in `api/apiPath.js` file accordingly.
+
+## 📄 License
+
+This project is licensed under the MIT License.
