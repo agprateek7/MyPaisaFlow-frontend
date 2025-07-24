@@ -55,7 +55,7 @@ frontend/
 
 ## 🔌 API Integration
 
-Make sure the backend is running and update your API base URL in `api/apiPath.js` file accordingly.
+Make sure the backend is running and update your API base URL in `utils/apiPath.js` file accordingly.
 
 ## 📄 License
 
